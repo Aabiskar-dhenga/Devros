@@ -10,6 +10,19 @@
         ;
       }
 
+      ul li{
+        cursor: pointer;
+      }
+
       .footerContainer{
       background-color: rgb(234,234,234);
+      }
+
+      .listedItemsWrapper{
+        display: flex; gap: 1rem;
+      }
+
+
+      .supportingLink{
+        text-decoration: none;
       }

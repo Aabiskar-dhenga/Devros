@@ -8,6 +8,7 @@ import Coursecard from "./Components/Cards/CourseCard/Coursecard";
 import { Feature } from "./Utilis/Feature";
 import Featurecard from "./Components/Cards/FeatureCard/Featurecard";
 import Footer from "./Components/Footer/Footer";
+import Workcard from "./Components/Cards/WorkCard/Workcard";
 
 const App = () => {
   return (
@@ -34,13 +35,7 @@ const App = () => {
 
         <div className="introductionImg">
           {/* img part */}
-          <img src="./Animation.png" alt="" />
-          <img
-            className="logo"
-            src="./Logoutilis/onlylogo.png
-          "
-            alt="logoPng"
-          />
+          <img src="./Logoutilis/allabout.png" alt="" />
         </div>
       </div>
       {/* Service Section Started */}
@@ -76,6 +71,9 @@ const App = () => {
         </div>
       </div>
       {/* feature section ends  */}
+      {/* work section */}
+
+      <Workcard />
 
       {/* footer */}
       <Footer />

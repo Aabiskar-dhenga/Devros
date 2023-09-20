@@ -76,18 +76,10 @@ line-height: normal;
   cursor: pointer;
 }
 
-.logo{
-  position: absolute;
-  width: 165.75px;
-height: 164px;
-top: 170.5px;
-right: 122px;
 
-}
 .serviceHeader{
   color: black;
   text-align: center;
-  background-color: #4E54C8;
 }
 
 .serviceDescription{

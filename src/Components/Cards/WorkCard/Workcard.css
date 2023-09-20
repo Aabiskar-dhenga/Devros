@@ -1,0 +1,10 @@
+.workCardWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.workSection{
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+}
