@@ -14,9 +14,9 @@ const Footer = () => {
   return (
     <div className="footerContainer">
       <div className="footerCardWrapper">
-        <div>
-          <h3>Quick Links</h3>
-          <ul>
+        <div className="footHead">
+          <h2 className="footer_heading">Quick Links</h2>
+          <ul className="footer_lists">
             <li>Courses</li>
             <Link className="supportingLink" to="/about">
               <li>About Us</li>
@@ -30,9 +30,9 @@ const Footer = () => {
             </Link>
           </ul>
         </div>
-        <div>
-          <h3>Social</h3>
-          <ul>
+        <div className="footHead">
+          <h2 className="footer_heading">Social</h2>
+          <ul className="footer_lists">
             <li className="listedItemsWrapper">
               <AiFillFacebook />
               <p>Facebook</p>
@@ -51,9 +51,9 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div>
-          <h3>Contact</h3>
-          <ul>
+        <div className="footHead">
+          <h2 className="footer_heading">Contact</h2>
+          <ul className="footer_lists">
             <li className="listedItemsWrapper">
               <BsTelephone />
               <p>+977-9867275074</p>
@@ -69,9 +69,12 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div>
+      <div className="footer_line_wrapper">
+        <div className="footer_line"></div>
+      </div>
+      <div className="copyrightBox">
         <AiOutlineCopyrightCircle />
-        Devros Pvt Ltd. 2023. All Rights Reserved
+        <p> Devros Pvt Ltd. 2023. All Rights Reserved</p>
       </div>
     </div>
   );
