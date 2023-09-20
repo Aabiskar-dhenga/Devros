@@ -1,0 +1,107 @@
+.appContainer{
+  height: 100vh;
+  max-height: auto;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  box-sizing: border-box;
+
+}
+.introduction{
+  height: auto;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  padding: 2rem;
+}
+.introductionContent{
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+.devrosHeading{
+  display: flex;
+  width: 206px;
+height: 68.814px;
+color: #000;
+font-family: Revue;
+font-size: 64px;
+font-weight: 300;
+line-height: normal;
+
+
+}
+
+.span{
+  color: #4E54C8;
+font-family: Revue;
+font-size: 64px;
+font-weight: 400;
+line-height: normal;
+}
+
+.devrosIntroductionParagraph{
+  width: 600px;
+}
+
+
+.btnWrapper{
+  display: flex;
+  gap: 2rem;
+
+}
+
+.codeEditorBtn{
+  width: 120px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  color: white;
+  height: 39.892px;
+  background-color:rgb(78,84,200);
+}
+.introductionCourseBtn{
+  border: none; 
+  border-radius: 12px;
+  width: 120px;
+  background-color: rgb(217,217,217);
+  height: 39.892px;
+  color: black;
+  cursor: pointer;
+}
+
+.logo{
+  position: absolute;
+  width: 165.75px;
+height: 164px;
+top: 170.5px;
+right: 122px;
+
+}
+.serviceHeader{
+  color: black;
+  text-align: center;
+  background-color: #4E54C8;
+}
+
+.serviceDescription{
+  color: #545454;
+  font-family: 'Poppins', sans-serif;
+}
+.servicesWrapper{
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.courseWrapper{
+  display: flex;
+  justify-content: space-between;
+  padding:1rem 2rem;
+}

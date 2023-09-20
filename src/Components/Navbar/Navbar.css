@@ -1,0 +1,60 @@
+.navContainer{
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    gap: 7rem;
+   
+}
+
+.linkClass{
+    text-decoration: none;
+}
+
+.navLeft{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+.navRight{
+    height: 100%;
+
+    width: 40%;display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+.navInputWrapper{
+    display: flex;
+    align-items: center;
+   
+width: 299px;
+    height: 32px;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: rgb(217,217,217);
+    
+    
+}
+
+.navInputBox{
+    width: 80%; border: none;
+    padding: 12px;
+    outline: none;
+    background-color: rgb(217,217,217);
+}
+.searchBtn{
+    background: none;
+}
+.pages{
+    cursor: pointer;
+    color: rgb(84,84,84);
+    letter-spacing: 1px;
+}

@@ -1,0 +1,18 @@
+.serviceCard{
+    display: flex;
+    flex-direction: column;
+  gap: 1rem;
+}
+
+.learnmoreBtn{
+    color: #4E54C8;
+    height: 34px;
+    width: 80px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  }
+
+  .serviceLogo{
+    width: 60px;
+  }

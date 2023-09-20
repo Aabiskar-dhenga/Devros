@@ -1,0 +1,15 @@
+.footerCardWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+    ul {
+        list-style: none;
+        color:  #545454;
+        ;
+      }
+
+      .footerContainer{
+      background-color: rgb(234,234,234);
+      }
