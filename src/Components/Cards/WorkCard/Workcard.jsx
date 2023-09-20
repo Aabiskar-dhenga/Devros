@@ -7,7 +7,7 @@ const Workcard = () => {
       <div className="worksectionUpperpart">
         <h3>Our Works</h3>
         <p>Here are some of our works.</p>
-        <button>See More Works</button>
+        <button className="seemoreBtn">See More Works</button>
       </div>
       <div className="workCardWrapper">
         <div className="workCard">

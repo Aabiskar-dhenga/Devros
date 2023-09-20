@@ -1,0 +1,33 @@
+.aboutusContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(234,234,234);
+}
+
+.chatwithusBtn{
+    background-color:  #4E54C8;
+    color: white;
+    padding: 8px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.headingPtag{
+    width: 43%;
+}
+.aboutTopbar{
+    display: flex;
+flex-direction: column;
+align-items: center;
+background-color: rgb(234,234,234);
+
+}
+.aboutusDesc{
+    width: 40%;
+}
+.santoshAndRajivImg{
+    
+}
